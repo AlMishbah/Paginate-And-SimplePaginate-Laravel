@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
+//Route Paginate
 Route::resource('paginate', 'PaginateController');
-//
+//Route Simple Paginate
 Route::resource('simple', 'SimplePaginateController');
